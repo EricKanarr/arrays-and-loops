@@ -110,7 +110,7 @@ function numbersOver10(x){
   blank_array = [];
   for (var i = 0; i < x.length; i++) {
     if (x[i] > 10) {
-      blank_array.push)x[i]);
+      blank_array.push(x[i]);
     }
   }
   console.log(blank_array);
